@@ -1,0 +1,125 @@
+body{
+    padding:41px;
+    align-items: center;
+    margin-left: 300px;
+}
+.container{
+    box-sizing: border-box;
+    /* position: absolute; */
+    width: 1645px;
+    height:135px;
+    left: 41px;
+    top:33px;
+    background: #111111;
+    border: 2px solid #808080;
+    border-radius: 20px;
+    padding: 30px;
+}
+.inner{
+    /* position: absolute; */
+    width: 549px;
+    height: 58px;
+    left:92px;
+    top:71px;
+    font-family:'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 48px ;
+    line-height: 58px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+.main{
+    display: flex;
+    flex-flow: column wrap;
+    height: 1000px;
+    width:1645px;
+    gap:20px;
+    padding-top:20px;
+    /* border: 2px solid #808080; */
+}
+.one{
+    height: 311px;
+    width: 506px;
+    border: 2px solid #808080;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.two{
+    height: 311px;
+    width: 506px;
+    border: 2px solid #808080;
+    border-radius: 20px;
+    color:#ffffff;
+    font-weight: 200;
+    font-size: 23px;
+    font-style: normal;
+    font-family:'Inter';
+    text-align: left;
+}
+.three{
+    height: 311px;
+    width: 506px;
+    border: 2px solid #808080;
+    border-radius: 20px;
+    display: flex;
+    
+}
+.four{
+    display:flex;
+    justify-content: right;
+    height: 977px;
+    width: 1102px;
+    border: 2px solid #808080;
+    border-radius: 20px;
+    
+}
+.image{
+    
+    width: 190px;
+    height: 190px;
+    left: 199px;
+    top: 227px;
+    margin-left: 150px;
+    background: url(100k-ai-faces-6);
+    border-radius: 100000px;
+    margin-top: 20px;
+    
+}
+.main span{
+    text-align: center;
+    color: white;
+    font-family:'Inter';
+    font-size: 35px;
+    margin-left: 150px;
+}
+.container_2{
+    color: white;
+    margin-right: 700px;
+    font-family: 'Inter';
+}
+table{
+    border-collapse: collapse;
+    width: 95%;
+    height: 50px;
+    border: 2px solid #808080;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+th, td{
+    
+    padding: 8px;
+    border: 1px solid #808080;
+    color: #808080;
+    font-size: 25px;
+    font-family: 'Inter';
+    font-weight: normal;
+    border-radius: 20px;
+}
+
+.link{
+    margin-left: 30px;
+}
